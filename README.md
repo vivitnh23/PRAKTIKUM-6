@@ -161,13 +161,15 @@ Keluar dari program.
 
 ## Cara Kerja Program
 
-Program ini bekerja dengan menggunakan struktur data dictionary dalam Python untuk menyimpan data mahasiswa. Setiap kunci dalam dictionary adalah NIM mahasiswa, dan nilainya adalah dictionary lain yang berisi informasi lengkap tentang mahasiswa tersebut (nama, nilai tugas, UTS, UAS, dan nilai akhir).
+- Melihat Data: Pengguna memilih "L" untuk menampilkan semua data mahasiswa dalam bentuk tabel. Jika tidak ada data, program memberi tahu.
+- Menambah Data: Pengguna memilih "T" untuk menambah data mahasiswa baru (NIM, nama, nilai tugas, UTS, dan UAS). Nilai akhir dihitung otomatis.
+- Mengubah Data: Pengguna memilih "U" untuk mengubah data mahasiswa yang sudah ada. Program akan meminta NIM dan data baru untuk diperbarui.
+- Menghapus Data: Pengguna memilih "H" untuk menghapus data mahasiswa berdasarkan NIM yang dimasukkan.
+- Mencari Data: Pengguna memilih "C" untuk mencari data mahasiswa berdasarkan NIM. Jika ditemukan, data ditampilkan.
+- Keluar: Pengguna memilih "K" untuk keluar dari program dan mengakhiri eksekusi.
+- Proses Berulang:
+Program terus menampilkan menu hingga pengguna memilih untuk keluar dengan memilih opsi "K".
 
-### Fungsi-fungsi Utama:
 
-* tampilkan_menu(): Fungsi ini menampilkan menu pilihan kepada pengguna dan mengembalikan pilihan yang dipilih.
-* tampilkan_data(): Fungsi ini menampilkan semua data mahasiswa yang tersimpan dalam format tabel.
-* tambah_data(): Fungsi ini menambahkan data mahasiswa baru ke dalam dictionary.
-* ubah_data(): Fungsi ini mengubah data mahasiswa yang sudah ada.
-* hapus_data(): Fungsi ini menghapus data mahasiswa.
-* cari_data(): Fungsi ini mencari data mahasiswa berdasarkan NIM.
+
+
